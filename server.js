@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const db = require('./mysql.js');
-const port = process.env.PORT || 4005;
+const port = process.env.PORT || 5005;
 let runningMessage = 'Server is running on port ' + port;
 
 app.get('/', (req, res) => {
